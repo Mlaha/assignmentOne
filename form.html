@@ -6,6 +6,49 @@
 </head>
 <body>
 
-<a href="mailto:janetmlaha@gmail.com">Email me</a>
+<form>
+<div>
+<label for="fname">First Name:</label>
+<input type="text" id="fname" placeholder="John" required>
+</div>
+<br>
+<div>
+<label for="lname">Last Name:</label>
+<input type="text" id="lname" placeholder="Doe" required>
+</div>
+<br>
+<div>
+<label for="pass">Password:</label>
+<input type="password" id="pass" name="pass" maxlength=12 required>
+</div>
+<br>
+<div>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="name@example.com" required>
+</div>
+<br>
+<div>
+<label for="bdate">Birth Date:</label>
+<input type="date" id="bdate" name="bdate" required>
+</div>
+<br>
+    <div>
+<label for="phone">Phone#:</label>
+<input type="tel" id="phone" name="phone" placeholder="(254)721 831061" required>
+    </div>
+    <div>
+<label for="Mr.">Mr.</label>
+<input type="radio"  id="Mr." name="title" value= "Mr.">
+<br>
+<label for="Mrs." >Mrs.</label>
+<input type="radio"  id="Mrs." name="title" value= "Mrs.">
+<br>
+<label for="Miss.">Miss.</label>
+<input type="radio"  id="Miss." name="title" value= "Miss.">
+</div>
+<input type= "submit" value="Submit">
+</form>
+
+
 </body>
 </html>
